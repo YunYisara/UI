@@ -9,6 +9,7 @@
 
     <!-- 부트스트랩 -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-override.css" rel="stylesheet">
 
     <!-- IE8 에서 HTML5 요소와 미디어 쿼리를 위한 HTML5 shim 와 Respond.js -->
     <!-- WARNING: Respond.js 는 당신이 file:// 을 통해 페이지를 볼 때는 동작하지 않습니다. -->
@@ -18,13 +19,126 @@
     <![endif]-->
   </head>
   <body>
-    <h1>2015.11.09 시작</h1>
+    <div class="container">
+      <h2>Inputs</h2>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="form-group">
+            <input type="text" value placeholder="Inactive" class="form-control">
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="form-group has-success">
+            <input type="text" value="Success" placeholder="Inactive" class="form-control">
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="form-group has-error">
+            <input type="text" value="Error" placeholder="Inactive" class="form-control">
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="form-group">
+            <input type="text" value placeholder="Inactive" class="form-control">
+          </div>
+        </div>
+      </div>
+
+      <h2>Cards</h1>
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <div class="panel panel-default">
+            <div class="thumbnail">
+              <img src="http://ob.clebee.net/uploads/course/avatar/2/medium_%EC%A0%84%EC%B0%AC%EA%B7%9C_cover.jpg" class="img-responsive"alt="컬러, 디자인을 압도하다">
+            </div>
+            <div class="panel-body">
+              <span class="label label-danger label-fix">인기</span>
+              <h4>컬러, 디자인을 압도하다</h4>
+              <p class="text-muted">도대체 여기서는 어떤 색을 써야 잘 썼다는 소릴 듣는거야? 컬러 감각을 일깨우는 연습</p>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="eng">(5)</span>
+            </div>
+            <div class="panel-footer">
+              <span>수강생 : 1명 </span>
+              <span class="pull-right">1,000원 </span>
+            </div>
+          </div>
+        </div>
+
+         <div class='col-md-3'>
+          <div class="panel panel-default">
+            <img src="http://ob.clebee.net/uploads/course/avatar/2/medium_%EC%A0%84%EC%B0%AC%EA%B7%9C_cover.jpg" class="img-responsive">
+            <img src="//placehold.it/80X80/57a744/fff" class="img-circle" style='display: block; width: 80px; margin: -40px auto 0;'>
+            <div class="panel-body">
+              <p class='lead text-center'>홍길동</p>
+              <p class="text-muted">이미 아는 포토샵 기능들을 이용한 화려한 이팩트! 무슨 기능인지는 아는데 어찌 활용할지 모르는 기능들을 명확</p>
+            </div>
+            <div class="panel-footer">
+              <span>피드백 </span>
+              <span class="pull-right">공유하기</span>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class='col-md-3'>
+          <div class="panel panel-default">
+            <img src="http://ob.clebee.net/uploads/course/avatar/2/medium_%EC%A0%84%EC%B0%AC%EA%B7%9C_cover.jpg" class="img-responsive">
+            <img src="//placehold.it/80X80/57a744/fff" class="img-circle" style='display: block; width: 80px; margin: -40px auto 0;'>
+            <div class="panel-body">
+              <p class='lead text-center'>홍길동</p>
+              <p>이미 아는 포토샵 기능들을 이용한 화려한 이팩트! 무슨 기능인지는 아는데 어찌 활용할지 모르는 기능들을 명확</p>
+              <a class='btn btn-default btn-block' href='#'>Add</a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-sm-6 col-md-3">
+          <div class="panel">
+             <div class="panel-body">
+              <ul class="media-list">
+                <li class="media">
+                    <div class="media-left">
+                        <a href="#">
+                          <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="media-object">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading" id="media-heading"><strong>홍길동</strong></h5>
+                        <p>45 min ago</p>
+                    </div>
+                    <p>이미 아는 포토샵 기능들을 이용한 화려한 이팩트! 무슨 기능인지는 아는데 어찌 활용할지 모르는 기능들을 명확</p>
+                </li>
+              </ul>
+              <img src="http://ob.clebee.net/uploads/course/avatar/3/color_cover.jpg" class="img-responsive" alt="컬러, 디자인을 앋도하다">
+            </div>
+            <div class="panel-footer">
+              <span class="pull-right">피드백 좋아요</span>
+              <span>나도 피드백</span>
+            </div>
+          </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+    </div>
 
     <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
     <script src="js/bootstrap.min.js"></script>
 
-    <h2>2015.11.10 git</h2>
   </body>
 </html>

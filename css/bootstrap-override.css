@@ -1,0 +1,8 @@
+.has-success .form-control {
+  color: #05AE0E;
+}
+
+.has-error .form-control {
+  color: #FF3B30;
+}
+
